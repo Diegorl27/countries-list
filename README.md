@@ -34,7 +34,7 @@ country-info-app/
 │   │   ├── index.ts          # Backend entry point
 │   │   └── …                 # Other backend files
 │   └── package.json
-├── frontend/                 # Frontend code
+├── front-end/                 # Frontend code
 │   ├── src/
 │   │   ├── pages/            # Next.js pages
 │   │   │   ├── index.tsx     # Main page with country list
@@ -69,7 +69,7 @@ cd country-info-app
 ### FrontEnd Setup
 - cd ../frontend
 - Create a .env.local file in the frontend folder with the backend URL: NEXT_PUBLIC_BACKEND_URL=http://localhost:5001
-- npm install
+- npm install (use --legacy-peer-deps)
 
 ## Available Commands
 
